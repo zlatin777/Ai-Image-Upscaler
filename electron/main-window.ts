@@ -13,10 +13,11 @@ const createMainWindow = () => {
   console.log("📂 DIRNAME", __dirname);
   console.log("🚃 App Path: ", app.getAppPath());
 
+  // change the browser size
   mainWindow = new BrowserWindow({
     icon: join(__dirname, "build", "icon.png"),
-    width: 1300,
-    height: 940,
+    width: 1440,
+    height: 1080,
     minHeight: 500,
     minWidth: 600,
     show: false,
